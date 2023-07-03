@@ -24,7 +24,7 @@ public class DAO {
         
         try {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            conn = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databasename=QuanLyThuVien;username=sa;password=quanlythuvien;integratedSecurity=false;trustServerCertificate=true;");
+            conn = DriverManager.getConnection("jdbc:sqlserver://DESKTOP-PH1QOHI\\SQLEXPRESS;databasename=QuanLyThuVien;username=sa;password=quanlythuvien;integratedSecurity=false;trustServerCertificate=true;");
         } catch (Exception e) {
             e.printStackTrace();
         }

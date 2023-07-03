@@ -28,7 +28,7 @@ public class DangKy extends javax.swing.JFrame {
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setTitle("Đăng Ký");
-        Image iconImage = Toolkit.getDefaultToolkit().getImage("" + "C:\\Users\\Del\\Documents\\NetBeansProjects\\QuanLyThuVien-master\\src\\view\\logohuce.jpg");
+        Image iconImage = Toolkit.getDefaultToolkit().getImage("" + "C:\\DoAn\\QuanLyThuVien-master\\src\\view\\logohuce.jpg");
         setIconImage(iconImage);
     }
 

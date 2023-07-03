@@ -38,7 +38,7 @@ public class TimSach extends javax.swing.JDialog {
         model = (DefaultTableModel) listSelectedSach.getModel();
         this.setTitle("Mượn Sách");
         showTable();
-        Image iconImage = Toolkit.getDefaultToolkit().getImage("" + "C:\\Users\\Del\\Documents\\NetBeansProjects\\QuanLyThuVien-master\\src\\view\\logohuce.jpg");
+        Image iconImage = Toolkit.getDefaultToolkit().getImage("" + "C:\\DoAn\\QuanLyThuVien-master\\src\\view\\logohuce.jpg");
         setIconImage(iconImage);
     }
 

@@ -40,7 +40,7 @@ public class Home extends javax.swing.JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setTitle("Home");
         showTable();
-        Image iconImage = Toolkit.getDefaultToolkit().getImage("" + "C:\\Users\\Del\\Documents\\NetBeansProjects\\QuanLyThuVien-master\\src\\view\\logohuce.jpg");
+        Image iconImage = Toolkit.getDefaultToolkit().getImage("" + "C:\\DoAn\\QuanLyThuVien-master\\src\\view\\logohuce.jpg");
         setIconImage(iconImage);
         btnDeleteAll.setVisible(false);
     }
@@ -95,7 +95,6 @@ public class Home extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(885, 530));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
@@ -210,7 +209,7 @@ public class Home extends javax.swing.JFrame {
                 btnThongKeActionPerformed(evt);
             }
         });
-        getContentPane().add(btnThongKe, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 100, 160, 30));
+        getContentPane().add(btnThongKe, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 258, 160, -1));
         getContentPane().add(txtTimSachTheoTen, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 390, 30));
 
         btnTimSachTheoTen.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
@@ -244,7 +243,7 @@ public class Home extends javax.swing.JFrame {
                 btnDeleteAllActionPerformed(evt);
             }
         });
-        getContentPane().add(btnDeleteAll, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 260, 160, 30));
+        getContentPane().add(btnDeleteAll, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 100, 160, 30));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/BG3.jpg"))); // NOI18N
         jLabel2.setText("jLabel2");

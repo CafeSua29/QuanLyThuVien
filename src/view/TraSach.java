@@ -39,7 +39,7 @@ public class TraSach extends javax.swing.JDialog {
         this.setTitle("Trả Sách");
         list = new DAO().getlistSachMuon(User);
         showTable();
-        Image iconImage = Toolkit.getDefaultToolkit().getImage("" + "C:\\Users\\Del\\Documents\\NetBeansProjects\\QuanLyThuVien-master\\src\\view\\logohuce.jpg");
+        Image iconImage = Toolkit.getDefaultToolkit().getImage("" + "C:\\DoAn\\QuanLyThuVien-master\\src\\view\\logohuce.jpg");
         setIconImage(iconImage);
     }
 

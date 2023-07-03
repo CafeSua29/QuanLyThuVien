@@ -29,7 +29,7 @@ public class ThemSach extends javax.swing.JDialog {
         this.setLocationRelativeTo(null);
         home = (Home) parent;
         this.setTitle("Thêm Sách");
-        Image iconImage = Toolkit.getDefaultToolkit().getImage("" + "C:\\Users\\Del\\Documents\\NetBeansProjects\\QuanLyThuVien-master\\src\\view\\logohuce.jpg");
+        Image iconImage = Toolkit.getDefaultToolkit().getImage("" + "C:\\DoAn\\QuanLyThuVien-master\\src\\view\\logohuce.jpg");
         setIconImage(iconImage);
     }
 
@@ -73,7 +73,7 @@ public class ThemSach extends javax.swing.JDialog {
         MaSach.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/code.png"))); // NOI18N
         MaSach.setText("Mã Sách");
         MaSach.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        getContentPane().add(MaSach, new org.netbeans.lib.awtextra.AbsoluteConstraints(47, 104, 150, 40));
+        getContentPane().add(MaSach, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, 160, 40));
         getContentPane().add(txtMaSach, new org.netbeans.lib.awtextra.AbsoluteConstraints(223, 104, 270, 40));
         getContentPane().add(txtTenSach, new org.netbeans.lib.awtextra.AbsoluteConstraints(223, 162, 270, 40));
 
@@ -82,7 +82,7 @@ public class ThemSach extends javax.swing.JDialog {
         TenSach.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/b.png"))); // NOI18N
         TenSach.setText("Tên Sách");
         TenSach.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        getContentPane().add(TenSach, new org.netbeans.lib.awtextra.AbsoluteConstraints(47, 162, 150, 40));
+        getContentPane().add(TenSach, new org.netbeans.lib.awtextra.AbsoluteConstraints(37, 162, 160, 40));
         getContentPane().add(txtTenTacGia, new org.netbeans.lib.awtextra.AbsoluteConstraints(223, 220, 270, 40));
 
         TenTacGia.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
@@ -90,7 +90,7 @@ public class ThemSach extends javax.swing.JDialog {
         TenTacGia.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/nahnvien.png"))); // NOI18N
         TenTacGia.setText("Tên Tác Giả");
         TenTacGia.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        getContentPane().add(TenTacGia, new org.netbeans.lib.awtextra.AbsoluteConstraints(47, 220, 150, 40));
+        getContentPane().add(TenTacGia, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 220, 160, 40));
         getContentPane().add(txtTheLoai, new org.netbeans.lib.awtextra.AbsoluteConstraints(223, 278, 270, 40));
 
         TheLoai.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
@@ -98,7 +98,7 @@ public class ThemSach extends javax.swing.JDialog {
         TheLoai.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/type.png"))); // NOI18N
         TheLoai.setText("Thể Loại");
         TheLoai.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        getContentPane().add(TheLoai, new org.netbeans.lib.awtextra.AbsoluteConstraints(47, 278, 150, 40));
+        getContentPane().add(TheLoai, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 280, 160, 40));
         getContentPane().add(txtHienTrang, new org.netbeans.lib.awtextra.AbsoluteConstraints(223, 336, 270, 40));
 
         HienTrang.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
@@ -106,7 +106,7 @@ public class ThemSach extends javax.swing.JDialog {
         HienTrang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/status.png"))); // NOI18N
         HienTrang.setText("Hiện Trạng");
         HienTrang.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        getContentPane().add(HienTrang, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 340, 150, 40));
+        getContentPane().add(HienTrang, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, 160, 40));
 
         btnXong.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         btnXong.setText("Hủy");
@@ -133,7 +133,7 @@ public class ThemSach extends javax.swing.JDialog {
         SoLuong.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/count.jpg"))); // NOI18N
         SoLuong.setText("Số Lượng");
         SoLuong.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        getContentPane().add(SoLuong, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 390, 150, 40));
+        getContentPane().add(SoLuong, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 390, 160, 40));
         getContentPane().add(txtSoLuong, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 390, 270, 40));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/a1.jpg"))); // NOI18N

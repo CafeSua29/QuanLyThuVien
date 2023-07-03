@@ -34,7 +34,7 @@ public class CheckTaiKhoan extends javax.swing.JDialog {
         home = (Home) parent;
         model = (DefaultTableModel) listSach.getModel();
         this.setTitle("Check Tài Khoản");
-        Image iconImage = Toolkit.getDefaultToolkit().getImage("" + "C:\\Users\\Del\\Documents\\NetBeansProjects\\QuanLyThuVien-master\\src\\view\\logohuce.jpg");
+        Image iconImage = Toolkit.getDefaultToolkit().getImage("" + "C:\\DoAn\\QuanLyThuVien-master\\src\\view\\logohuce.jpg");
         setIconImage(iconImage);
     }
 

@@ -37,7 +37,7 @@ public class XoaSach extends javax.swing.JDialog {
         this.setTitle("Xóa Sách");
         list = new DAO().getlistSach();
         showTable();
-        Image iconImage = Toolkit.getDefaultToolkit().getImage("" + "C:\\Users\\Del\\Documents\\NetBeansProjects\\QuanLyThuVien-master\\src\\view\\logohuce.jpg");
+        Image iconImage = Toolkit.getDefaultToolkit().getImage("" + "C:\\DoAn\\QuanLyThuVien-master\\src\\view\\logohuce.jpg");
         setIconImage(iconImage);
     }
 
@@ -168,9 +168,9 @@ public class XoaSach extends javax.swing.JDialog {
                 
             }
         }
+            JOptionPane.showMessageDialog(rootPane, "Xóa thành công !"); 
         }
               
-            JOptionPane.showMessageDialog(rootPane, "Xóa thành công !"); 
             list = new DAO().getlistSach();
             showTable();
             home.showTable();

@@ -8,6 +8,8 @@ import controller.DAO;
 import java.util.ArrayList;
 import javax.swing.table.DefaultTableModel;
 import model.Sach;
+import java.awt.Toolkit;
+import java.awt.Image;
 
 /**
  *
@@ -34,6 +36,8 @@ public class ThongKe extends javax.swing.JDialog {
         this.setTitle("Thống Kê");
         showTableMax();
         showTableMin();
+         Image iconImage = Toolkit.getDefaultToolkit().getImage("" + "C:\\\\DoAn\\\\QuanLyThuVien-master\\\\src\\\\view\\\\logohuce.jpg");
+        setIconImage(iconImage);
     }
 
     /**

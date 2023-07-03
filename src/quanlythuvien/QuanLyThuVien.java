@@ -12,33 +12,5 @@ import view.Home;
  */
 public class QuanLyThuVien {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        int[] arr = new int[10];
-        try {
-      arr[10] = 11;
-    }
-        
-        
-        
-        catch (IndexOutOfBoundsException e2) {
-      System.out.println("deo du cho");
-    }
-    
-    catch (NumberFormatException e1) {
-      System.out.println("cai nay deo catch dc");
-    }
-    
-    
-    
-    catch (Exception e) {
-      System.out.println("cai nay thi dc");
-    }
-    
-    
-                
-    }
     
 }
